@@ -1,0 +1,51 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(239, 237, 213);
+    color: #333;
+}
+
+
+.info, .beach-name, #overview-title {
+    color: #6a4401;
+}
+
+.highlight, .Yellew {
+    color: #087a5d;
+    font-weight: bold;
+}
+
+
+.deemphasize {
+    color: #6a4401;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #6a4401;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #087a5d;
+}
+
+nav a:visited {
+    color: #bfa98a;
+}
+
+/* Footer */
+footer {
+    background-color: #6a4401;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
