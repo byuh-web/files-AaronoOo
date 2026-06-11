@@ -1,0 +1,15 @@
+.container {
+  width: 90%;
+  background: lightblue;
+}
+ 
+.hero {
+  width: 800px;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    display: none;
+  }
+}
