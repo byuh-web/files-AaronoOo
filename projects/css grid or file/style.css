@@ -1,0 +1,83 @@
+
+body {
+    margin: 0;
+    font-family: "Georgia", serif;
+    background: linear-gradient(to bottom, #f8f9fa, #e6eef7);
+    color: #333;
+}
+
+header {
+    background: #2c5d8a;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+nav {
+    background: #d9b44a;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.1em;
+}
+
+nav a {
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    padding: 30px;
+}
+
+
+main div {
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid #d9b44a;
+}
+
+aside {
+    background-color: #f4f4f4;
+    border-left: 5px solid gold;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+footer p:last-child {
+    background: #2c5d8a;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
