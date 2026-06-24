@@ -1,0 +1,24 @@
+.div1 {
+    background-color: rgb(0, 255, 247);
+    margin-bottom: 50px;
+}
+
+.div2 {
+    background-color: rgb(0, 255, 255);
+    margin-top: 50px;
+}
+
+nav a:hover {
+    color: aqua;
+}
+nav a {
+    padding: 10px;
+    margin: 30px;
+    border: 1px;
+    border-radius: black;
+    border-style: dotted;
+}
+
+#Phoot {
+    background-color: rgb(0, 255, 255);
+}
