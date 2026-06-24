@@ -1,9 +1,6 @@
-/* ================================================
-   DISCOVER PAKISTAN — styles.css
-   ================================================ */
 
 
-/* ===== GLOBAL ===== */
+/* GLOBAL */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -13,7 +10,7 @@ body {
 }
 
 
-/* ===== HEADER ===== */
+/* HEADER */
 header {
     background-color: #006600;
     color: white;
@@ -29,7 +26,7 @@ header img {
 }
 
 
-/* ===== NAVIGATION — DESKTOP ===== */
+/* NAVIGATION and DESKTOP */
 nav {
     background-color: #009933;
     display: flex;
@@ -59,7 +56,7 @@ nav a:hover {
 }
 
 
-/* ===== NAVIGATION — MOBILE ===== */
+/* NAVIGATION for MOBILE */
 @media (max-width: 600px) {
     nav {
         flex-direction: column;
@@ -90,7 +87,7 @@ nav a:hover {
 }
 
 
-/* ===== MAIN CONTENT BOX ===== */
+/* MAIN CONTENT BOX AREA STUUFF*/
 .container {
     background-color: white;
     width: 85%;
@@ -103,7 +100,7 @@ nav a:hover {
 }
 
 
-/* ===== HEADINGS ===== */
+/* HEADINGS */
 h1 {
     color: #ffffff;
 }
@@ -121,7 +118,7 @@ h1 {
 }
 
 
-/* ===== SECTION INTRO TEXT ===== */
+/* SECTION INTRO TEXT */
 .section-intro {
     color: #444;
     line-height: 1.7;
@@ -129,7 +126,7 @@ h1 {
 }
 
 
-/* ===== IMAGES ===== */
+/* MAGES*/
 .main-img {
     width: 80%;
     max-width: 450px;
@@ -155,7 +152,7 @@ h1 {
 }
 
 
-/* ===== SHARED SIDE-BY-SIDE LAYOUT ===== */
+/* SHARED SIDE-BY-SIDE LAYOUT*/
 .culture-section {
     display: flex;
     gap: 25px;
@@ -193,7 +190,7 @@ h1 {
 }
 
 
-/* ===== HOME PAGE INTRO ===== */
+/* HOME PAGE INTRO STUUFF*/
 .home-intro {
     display: flex;
     gap: 25px;
@@ -253,7 +250,7 @@ h1 {
 }
 
 
-/* ===== FOOD PAGE — STREET FOOD CARDS ===== */
+/* ===== FOOD PAGE and STREET FOOD CARDS and OTHER STUUFF ===== */
 .food-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -288,7 +285,7 @@ h1 {
 }
 
 
-/* ===== VIDEOS ===== */
+/* ALL THE VIDEOS */
 .video-vertical {
     position: relative;
     width: 100%;
@@ -335,7 +332,7 @@ h1 {
 }
 
 
-/* ===== FACTS PAGE — TABLE ===== */
+/* FACTS PAGE TABLE */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -410,7 +407,7 @@ tr:nth-child(even) {
 }
 
 
-/* ===== FACTS PAGE — QUICK FACTS CARDS ===== */
+/* FACTS PAGE and  QUICK FACTS CARDS */
 .quick-facts-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -445,7 +442,7 @@ tr:nth-child(even) {
 }
 
 
-/* ===== CONTACT PAGE — FORM ===== */
+/* CONTACT PAGE — FORM */
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -501,7 +498,7 @@ tr:nth-child(even) {
 }
 
 
-/* ===== FOOTER ===== */
+/* THE END FOOTER*/
 footer {
     background-color: #006600;
     color: white;
@@ -512,7 +509,7 @@ footer {
 }
 
 
-/* ===== RESPONSIVE: CONTAINER ===== */
+/* RESPONSIVE: CONTAINER  */
 @media (max-width: 600px) {
     .container {
         width: 95%;
